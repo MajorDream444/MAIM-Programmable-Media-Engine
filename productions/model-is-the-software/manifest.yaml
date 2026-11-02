@@ -1,0 +1,33 @@
+schema_version: "1.0"
+content_id: media-model-is-the-software
+production_slug: model-is-the-software
+title: "The Model Is the Software—And That Changes Everything"
+primary_brand: maim-academy
+secondary_brands: [maim]
+status: ingested
+source:
+  original_filename: "The Model Is the Software—And That Changes Everything.mp4"
+  duration_seconds: 1153
+  rights_owner: Major Dream Williams
+storage:
+  drive_master: SET_DRIVE_FILE_URL
+  local_raw: "$HOME/Documents/MAIM-Tools/herk-edit-kit/video-projects/model-is-the-software/assets/raw.mp4"
+  drive_delivery_folder: SET_DRIVE_DELIVERY_FOLDER_URL
+editorial:
+  thesis: "The model itself is becoming the software, changing how systems are designed and operated."
+  audience: "MAIM Academy learners, builders, entrepreneurs, and AI implementers"
+  chapters_file: chapters.md
+  transcript_file: transcript.md
+  clips_file: clips.md
+destinations:
+  - { platform: youtube, account_label: "MAIM Academy / Major at Hanzo", playlist_or_lane: SET_PLAYLIST, state: planned, url: null }
+  - { platform: youtube-short, account_label: "MAIM Academy / Major at Hanzo", playlist_or_lane: "Episode derivatives", state: in_production, url: null }
+  - { platform: instagram-reel, account_label: SET_APPROVED_INSTAGRAM_ACCOUNT, playlist_or_lane: "MAIM Academy", state: planned, url: null }
+  - { platform: substack, account_label: "Major Dream Williams Substack", playlist_or_lane: "Major AI OS productization", state: idea, url: null }
+deliverables:
+  { full_video: false, captions: false, chapters: false, thumbnail: true, shorts: 3, transcript: false, substack_packet: false, qa_report: false }
+substack_opportunities:
+  - "Why the Model Is Becoming the Software"
+  - "Three Jobs AI Systems Must Do Now"
+  - "From Applications to Model-Directed Operations"
+approvals: []
