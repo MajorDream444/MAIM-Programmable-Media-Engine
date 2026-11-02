@@ -1,0 +1,30 @@
+schema_version: "1.0"
+content_id: media-example
+production_slug: example-production
+title: Example Production
+primary_brand: maim
+secondary_brands: []
+status: recorded
+source:
+  recorded_at:
+  original_filename:
+  duration_seconds:
+  rights_owner: Major Dream Williams
+storage:
+  drive_master:
+  local_raw:
+  drive_delivery_folder:
+editorial:
+  thesis:
+  audience:
+  chapters_file: chapters.md
+  transcript_file: transcript.md
+  clips_file: clips.md
+destinations:
+  - { platform: youtube, account_label: null, playlist_or_lane: null, state: planned, url: null }
+  - { platform: youtube-short, account_label: null, playlist_or_lane: null, state: planned, url: null }
+  - { platform: instagram-reel, account_label: null, playlist_or_lane: null, state: planned, url: null }
+  - { platform: substack, account_label: null, playlist_or_lane: null, state: idea, url: null }
+deliverables:
+  { full_video: false, captions: false, chapters: false, thumbnail: false, shorts: 0, transcript: false, substack_packet: false, qa_report: false }
+approvals: []
